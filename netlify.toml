@@ -5,3 +5,8 @@
   status = 301
   force = true
 
+# Default
+[[redirects]]
+  from = "/*"
+  to = "/en-GB/:splat"
+  status = 200
