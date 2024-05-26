@@ -1,7 +1,7 @@
 
-  [[redirects]]
-  from = "/en-gb/"
-  to = "/*"
+[[redirects]]
+  from = "/en-gb/*"
+  to = "/:splat"
   status = 301
   force = true
 
