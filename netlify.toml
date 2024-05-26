@@ -1,6 +1,6 @@
 
   [[redirects]]
-  from = "/en-GB/"
+  from = "/en-gb/"
   to = "/*"
   status = 301
   force = true
