@@ -1,7 +1,14 @@
 
+	
+# Redirect for end-user’s browser preference override
 [[redirects]]
-  from = "/en-gb/*"
-  to = "/:splat"
-  status = 301
-  force = true
+  from = "/*"
+  to = "/es-ES/:splat"
+  status = 302
+  conditions = {Language = ["es"]}
 
+# Default
+[[redirects]]
+  from = "/*"
+  to = "/en-GB/:splat"
+  status = 200
