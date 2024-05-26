@@ -1,5 +1,10 @@
 
-	
+	[[redirects]]
+  from = "/en-GB/*"
+  to = "/:splat"
+  status = 301
+  force = true
+  
 # Redirect for end-user’s browser preference override
 [[redirects]]
   from = "/*"
