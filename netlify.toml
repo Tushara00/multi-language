@@ -8,3 +8,8 @@
   to = "/en-GB/:splat"
   status = 200
 
+  [[redirects]]
+  from = "/en-GB/"
+  to = "/*/"
+  status = 200
+
