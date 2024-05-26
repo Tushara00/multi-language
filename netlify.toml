@@ -1,15 +1,7 @@
 
-
-
-
-# Default
-[[redirects]]
-  from = "/*"
-  to = "/en-GB/:splat"
-  status = 200
-
   [[redirects]]
   from = "/en-GB/"
-  to = "/*/"
-  status = 200
+  to = "/*"
+  status = 301
+  force = true
 
